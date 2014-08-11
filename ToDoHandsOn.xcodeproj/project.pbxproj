@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		257C70283F84D74BD6E0C521 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 257C7E18745ACE004DA6E523 /* InfoPlist.strings */; };
 		257C70C362C9B04CB062691E /* ToDoHandsOnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 257C7ADA05D380F1A0B385E7 /* ToDoHandsOnTests.m */; };
-		257C70CBE98F63CA3CFB9A3B /* ToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 257C7497CD5406954E4916CA /* ToDoItem.m */; };
+		257C70CBE98F63CA3CFB9A3B /* TwToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 257C7497CD5406954E4916CA /* TwToDoItem.m */; };
 		257C723F90BF9496831868B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 257C7A3E0E6F0383F33F3E32 /* Main.storyboard */; };
 		257C74BB7E09EF76E4770404 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 257C76582959B5669A2E401A /* Foundation.framework */; };
 		257C7699F11C1458A54D47FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 257C7C847DA7EE0EDD28B365 /* CoreGraphics.framework */; };
@@ -42,7 +42,7 @@
 		257C7321ECDD22C179A919E5 /* TwToDoList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwToDoList.h; sourceTree = "<group>"; };
 		257C73D2B637748499E1D13B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		257C741EF571FA3600C905BF /* TWTodoListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWTodoListViewController.h; sourceTree = "<group>"; };
-		257C7497CD5406954E4916CA /* ToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoItem.m; sourceTree = "<group>"; };
+		257C7497CD5406954E4916CA /* TwToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwToDoItem.m; sourceTree = "<group>"; };
 		257C7510E8F32573C09F530B /* ToDoHandsOn-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ToDoHandsOn-Prefix.pch"; sourceTree = "<group>"; };
 		257C7571F6E79DC34C4FC2BB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		257C76347EE1974B4C2E0340 /* TWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWAppDelegate.h; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		257C76B6CBDAB083CEA73E60 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		257C76FF739C97D9ED3FB8BA /* ToDoHandsOn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoHandsOn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		257C789064F62656E27BF918 /* TWTodoListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWTodoListViewController.m; sourceTree = "<group>"; };
-		257C79883E9B3355E50C5977 /* ToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoItem.h; sourceTree = "<group>"; };
+		257C79883E9B3355E50C5977 /* TwToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwToDoItem.h; sourceTree = "<group>"; };
 		257C799296E6ABDC6899E39E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		257C79C42F526B7038AA1367 /* TwAllToDoList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwAllToDoList.m; sourceTree = "<group>"; };
 		257C7A8B8A0139A8A1B5A447 /* TWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWAppDelegate.m; sourceTree = "<group>"; };
@@ -188,8 +188,8 @@
 		780D14241998CE1300269276 /* ToDoItems */ = {
 			isa = PBXGroup;
 			children = (
-				257C7497CD5406954E4916CA /* ToDoItem.m */,
-				257C79883E9B3355E50C5977 /* ToDoItem.h */,
+				257C7497CD5406954E4916CA /* TwToDoItem.m */,
+				257C79883E9B3355E50C5977 /* TwToDoItem.h */,
 			);
 			name = ToDoItems;
 			sourceTree = "<group>";
@@ -298,7 +298,7 @@
 				257C7F56BDA34AE5FBAB3436 /* TWTodoListViewController.m in Sources */,
 				257C7D8081BF93BD5CD6B818 /* TwAllToDoList.m in Sources */,
 				257C7FBE5B8AAC4453D78B75 /* TwToDoList.m in Sources */,
-				257C70CBE98F63CA3CFB9A3B /* ToDoItem.m in Sources */,
+				257C70CBE98F63CA3CFB9A3B /* TwToDoItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
