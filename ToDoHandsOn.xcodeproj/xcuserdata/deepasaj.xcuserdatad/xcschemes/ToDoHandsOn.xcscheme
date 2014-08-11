@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "257C7A8E5992345F446CE1EF"
+               BuildableName = "ToDoHandsOn.app"
+               BlueprintName = "ToDoHandsOn"
+               ReferencedContainer = "container:ToDoHandsOn.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "257C7A8E5992345F446CE1EF"
+            BuildableName = "ToDoHandsOn.app"
+            BlueprintName = "ToDoHandsOn"
+            ReferencedContainer = "container:ToDoHandsOn.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+</Scheme>
