@@ -1,18 +1,10 @@
-//
-//  TWViewController.m
-//  ToDoHandsOn
-//
-//  Created by deepasaj on 11/08/14.
-//  Copyright (c) 2014 ThoughtWorks. All rights reserved.
-//
+#import "TWTodoListViewController.h"
 
-#import "TWViewController.h"
-
-@interface TWViewController ()
+@interface TWTodoListViewController ()
 
 @end
 
-@implementation TWViewController
+@implementation TWTodoListViewController
 
 - (void)viewDidLoad
 {
